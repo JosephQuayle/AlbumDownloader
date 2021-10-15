@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(0deg, #e3ffe7 0%, #d9e7ff 100%);
+}
+
+.content {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  max-width: 1200px;
+}
+
+header h1 {
+  font-size: 3rem;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 600;
+}
+
+.head {
+  padding: 5rem 0;
+}
+
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 5rem;
+}
+
+.card {
+  padding: 7rem;
+  background-color: red;
+  border-radius: 10px;
+}
+
+.card:hover {
+  transition: all 0.2s ease-in-out;
+  transform: scale(1.5);
+  cursor: pointer;
+}
+
+.card-1 {
+  background: url(./img/SmithsSoundOf.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.card-2 {
+  background: url(./img/Architects-Holy-Hell.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.card-3 {
+  background: url(./img/SleepsSociety.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.card-4 {
+  background: url(./img/avengedsevenfold.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.box4 {
+  padding-bottom: 5rem;
+}
+
+p {
+  color: black;
+  margin-top: 5px;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+@media (max-width: 412px) {
+  .container {
+    height: 100%;
+  }
+}
